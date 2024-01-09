@@ -5,8 +5,8 @@ import os
 import csv
 
 # Define file paths
-csv_resource_path = '/Users/ezrellemyhre-hager/Documents/GitHub/python-challenge/python-challenge/PyPoll/Resources/election_data.csv'
-txt_analysis_path = '/Users/ezrellemyhre-hager/Documents/GitHub/python-challenge/python-challenge/PyPoll/analysis/election_results.txt'
+csv_resource_path = os.path.join('PyPoll','Resources','election_data.csv') #'/Users/ezrellemyhre-hager/Documents/GitHub/python-challenge/python-challenge/PyPoll/Resources/election_data.csv'
+txt_analysis_path = os.path.join('PyPoll','analysis', 'election_results.txt') #'/Users/ezrellemyhre-hager/Documents/GitHub/python-challenge/python-challenge/PyPoll/analysis/election_results.txt'
 
 # Initialize variables for vote counting
 total_votes = 0

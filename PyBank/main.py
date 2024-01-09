@@ -5,8 +5,8 @@ import os
 import csv
 
 # Define file paths
-csv_resource_path = '/Users/ezrellemyhre-hager/Documents/GitHub/python-challenge/python-challenge/PyBank/Resources/budget_data.csv'
-txt_analysis_path = '/Users/ezrellemyhre-hager/Documents/GitHub/python-challenge/python-challenge/PyBank/analysis/financial_analysis.txt'
+csv_resource_path = os.path.join('PyBank','Resources','budget_data.csv') #'/Users/ezrellemyhre-hager/Documents/GitHub/python-challenge/PyBank/Resources/budget_data.csv'
+txt_analysis_path = os.path.join('PyBank','analysis','financial_analysis.txt') #'/Users/ezrellemyhre-hager/Documents/GitHub/python-challenge/PyBank/analysis/financial_analysis.txt'
 
 # Initialize variables
 total_months = 0

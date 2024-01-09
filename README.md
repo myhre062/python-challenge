@@ -11,9 +11,7 @@ Please refer to my main.py files in the PyBank and PyPoll folders for grading pu
 
 ## Instructions
 
-Clone the repository. Delete the financial_analysis.txt and election_results.txt files. You can now run the main.py files in their respective folders. To see that the program produce the correct results you can then see that the appropriate files are created in the respective analysis folders. Or alternativley see that the same data is printed in the Terminal. 
-
-Note: you may need to edit the csv_resource_path and txt_analysis_path variables in their respective main.py files. I was not able to figure out how to use the .join() function correctly. This may change in the future. 
+Clone the repository. Delete the financial_analysis.txt and election_results.txt files. You can now run the main.py files in their respective folders. To see that the program produce the correct results you can then see that the appropriate files are created in the respective analysis folders. Or alternativley see that the same data is printed in the Terminal.  
 
 ## Summary
 
